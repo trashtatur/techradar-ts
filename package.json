@@ -1,0 +1,31 @@
+{
+  "name": "techradar-ts",
+  "version": "1.0.0",
+  "description": "Wrapper around the Zalando techradar implementation in typescript, to provide typesupport and validation",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/"
+  },
+  "keywords": [
+    "Zalando",
+    "techradar"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trashtatur/techradar-ts"
+  },
+  "author": "Andreas Riedener",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "zod": "^3.22.4"
+  }
+}
