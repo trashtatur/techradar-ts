@@ -1,3 +1,4 @@
+import d3 from 'd3';
 // SOURCE: https://github.com/zalando/tech-radar
 
 // The MIT License (MIT)
