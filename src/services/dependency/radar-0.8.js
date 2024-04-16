@@ -1,4 +1,5 @@
-import * as d3 from 'd3';
+//@ts-ignore
+import * as d3 from "d3";
 
 // SOURCE: https://github.com/zalando/tech-radar
 
