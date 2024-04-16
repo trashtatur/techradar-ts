@@ -15,7 +15,7 @@ const RadarConfigurationSchema = z.object({
   quadrants: QuadrantCollectionSchema,
   rings: RingCollectionSchema,
   print_layout: z.boolean(),
-  zoomed_quadrant: z.number().int().min(0).max(3),
+  zoomed_quadrant: z.number().int().min(0).max(3).optional(),
   links_in_new_tabs: z.boolean(),
   entries: EntryCollectionSchema
 });
