@@ -5,6 +5,8 @@ const EntrySchema = z.object({
   quadrant: z.number().min(0).max(3).int(),
   ring: z.number().min(0).max(3).int(),
   moved: z.number().min(-1).max(1).int(),
+  active: z.boolean(),
+  link: z.string().url().optional(),
 });
 
 const EntryCollectionSchema = z.array(EntrySchema);
