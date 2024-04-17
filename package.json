@@ -1,6 +1,6 @@
 {
   "name": "techradar-ts",
-  "version": "2.0.4",
+  "version": "2.1.0",
   "description": "Wrapper around the Zalando techradar implementation in typescript, to provide typesupport and validation",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

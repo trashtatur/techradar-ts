@@ -8,3 +8,19 @@
 - Add `link` and `active` parameter to entry schema
 - Add `date` and `zoomed_in_quadrant` to radar config schema
 - Adjust `entryService` to take additional parameters
+
+## 2.0.1
+- Make zoomed in quadrant optional, even though it technically isn't because IF you set it to undefined, it breaks the radar (because of course it does)
+
+## 2.0.2
+- Downgrade d3 from most recent version (7.9) to older version, because most recent version broke some features of the radar. Now using `d3v4` instead.
+
+## 2.0.3
+- Remove `@types/d3`as it broke the d3 import for the older version
+
+## 2.0.4
+- Fix the `d3`import because apparently, even though the documentation states it, you cannot import `d3`you have to import `d3v4`
+
+## 2.1.0
+- Add class attributes to text elements in svg to easier target them individually
+- Add some stuff to `README.md`

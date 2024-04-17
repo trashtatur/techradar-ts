@@ -283,6 +283,7 @@ export function radar_visualization(config) {
     // title
     radar.append("text")
       .attr("transform", translate(title_offset.x, title_offset.y))
+      .attr("class", "radar-title")
       .text(config.title)
       .style("font-family", "Arial, Helvetica")
       .style("font-size", "30")
@@ -291,6 +292,7 @@ export function radar_visualization(config) {
     // date
     radar
       .append("text")
+      .attr("class", "radar-date")
       .attr("transform", translate(title_offset.x, title_offset.y + 20))
       .text(config.date || "")
       .style("font-family", "Arial, Helvetica")
@@ -299,6 +301,7 @@ export function radar_visualization(config) {
 
     // footer
     radar.append("text")
+      .attr("class", "radar-footer")
       .attr("transform", translate(footer_offset.x, footer_offset.y))
       .text("▲ moved up     ▼ moved down")
       .attr("xml:space", "preserve")
@@ -309,6 +312,7 @@ export function radar_visualization(config) {
     var legend = radar.append("g");
     for (var quadrant = 0; quadrant < 4; quadrant++) {
       legend.append("text")
+        .attr("class", "radar-quadrant-name")
         .attr("transform", translate(
           legend_offset[quadrant].x,
           legend_offset[quadrant].y - 45
@@ -319,6 +323,7 @@ export function radar_visualization(config) {
         .style("font-weight", "bold");
       for (var ring = 0; ring < 4; ring++) {
         legend.append("text")
+          .attr("class", "radar-rings-name")
           .attr("transform", legend_transform(quadrant, ring))
           .text(config.rings[ring].name)
           .style("font-family", "Arial, Helvetica")
