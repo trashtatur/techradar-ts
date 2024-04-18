@@ -5,7 +5,7 @@ const RingSchema = z.object({
   color: z.string().startsWith('#').max(7).min(2),
 })
 
-const RingCollectionSchema = z.array(RingSchema);
+const RingCollectionSchema = z.array(RingSchema).max(4);
 
 type RingType = z.infer<typeof RingSchema>;
 

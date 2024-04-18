@@ -24,3 +24,7 @@
 ## 2.1.0
 - Add class attributes to text elements in svg to easier target them individually
 - Add some stuff to `README.md`
+
+## 2.2.0
+- Specify exact length for `quadrants` and `rings` parameters of radar config, because anything besides a length of 4 breaks the radar
+- Fix filepath in `README.md`

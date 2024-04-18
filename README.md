@@ -15,7 +15,7 @@ Nothing else needs to be done
 ## Usage
 Currently you have to import exposed functions like this
 ```ts
-import { createEntry } from 'techradar/src'
+import { createEntry } from 'techradar-ts/src'
 ```
 At some point I might add an index or something.
 

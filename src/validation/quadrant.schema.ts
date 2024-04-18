@@ -4,7 +4,7 @@ const QuadrantSchema = z.object({
   name: z.string(),
 })
 
-const QuadrantCollectionSchema = z.array(QuadrantSchema);
+const QuadrantCollectionSchema = z.array(QuadrantSchema).length(4);
 
 type QuadrantType = z.infer<typeof QuadrantSchema>;
 
