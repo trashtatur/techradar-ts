@@ -1,4 +1,4 @@
-import { RingSchema, RingType } from "../validation/ring.schema";
+import { RingSchema, type RingType } from "../validation/ring.schema";
 
 type color = `#${string}`
 const createRing = (name: string, color: color) => RingSchema.parse({

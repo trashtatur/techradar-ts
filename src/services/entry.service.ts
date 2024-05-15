@@ -1,4 +1,4 @@
-import { EntrySchema, EntryType } from "../validation/entry.schema";
+import { EntrySchema, type EntryType } from "../validation/entry.schema";
 
 const createEntry = (
   label: string,

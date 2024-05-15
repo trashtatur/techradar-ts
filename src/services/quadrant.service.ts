@@ -1,4 +1,4 @@
-import { QuadrantSchema, QuadrantType } from "../validation/quadrant.schema";
+import { QuadrantSchema, type QuadrantType } from "../validation/quadrant.schema";
 
 const createQuadrant = (name: string) => QuadrantSchema.parse({
   name

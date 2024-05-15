@@ -1,5 +1,5 @@
 import { RadarConfigurationSchema, RadarConfigurationType } from "../validation/radar-configuration.schema";
-import { EntryType } from "../validation/entry.schema";
+import type { EntryType } from "../validation/entry.schema";
 import { radar_visualization } from "./dependency/radar-0.8";
 
 const createRadar = (radarConfiguration: RadarConfigurationType) => {

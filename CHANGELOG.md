@@ -34,3 +34,6 @@
 
 ## 2.3.0
 - Change build config, add typecheck and export types properly
+
+## 2.3.1
+- Fix all type imports

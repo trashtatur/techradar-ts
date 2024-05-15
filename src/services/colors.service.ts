@@ -1,4 +1,4 @@
-import { ColorsSchema, ColorsType } from "../validation/colors.schema";
+import { ColorsSchema, type ColorsType } from "../validation/colors.schema";
 
 type color = `#${string}`
 const createColors = (background: color, grid: color, inactive: color) => ColorsSchema.parse({
