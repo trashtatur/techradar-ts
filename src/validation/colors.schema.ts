@@ -12,5 +12,5 @@ type ColorsType = z.infer<typeof ColorsSchema>;
 
 export {
   ColorsSchema,
-  ColorsType,
+  type ColorsType,
 }

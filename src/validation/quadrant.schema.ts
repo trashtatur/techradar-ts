@@ -13,6 +13,6 @@ type QuadrantCollectionType = z.infer<typeof QuadrantCollectionSchema>
 export {
   QuadrantSchema,
   QuadrantCollectionSchema,
-  QuadrantType,
-  QuadrantCollectionType,
+  type QuadrantType,
+  type QuadrantCollectionType,
 }

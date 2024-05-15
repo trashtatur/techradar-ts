@@ -31,3 +31,6 @@
 
 ## 2.2.1
 - Add length to rings too because VSCode didnt save it the first time...
+
+## 2.3.0
+- Change build config, add typecheck and export types properly

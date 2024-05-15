@@ -18,6 +18,6 @@ type EntryCollectionType = z.infer<typeof EntryCollectionSchema>;
 export {
   EntrySchema,
   EntryCollectionSchema,
-  EntryType,
-  EntryCollectionType,
+  type EntryType,
+  type EntryCollectionType,
 };

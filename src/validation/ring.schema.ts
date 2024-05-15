@@ -14,6 +14,6 @@ type RingCollectionType = z.infer<typeof RingCollectionSchema>
 export {
   RingSchema,
   RingCollectionSchema,
-  RingType,
-  RingCollectionType,
+  type RingType,
+  type RingCollectionType,
 };

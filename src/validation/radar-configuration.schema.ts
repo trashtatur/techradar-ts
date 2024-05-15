@@ -24,5 +24,5 @@ type RadarConfigurationType = z.infer<typeof RadarConfigurationSchema>;
 
 export {
   RadarConfigurationSchema,
-  RadarConfigurationType,
+  type RadarConfigurationType,
 }
