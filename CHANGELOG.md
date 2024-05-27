@@ -40,3 +40,6 @@
 
 ## 3.0.0
 - Change structure and fix the remaining stuff... hopefully
+
+### 3.0.1
+- Publish dist folder
