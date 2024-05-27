@@ -1,4 +1,4 @@
-import { RadarConfigurationSchema, RadarConfigurationType } from "../validation/radar-configuration.schema";
+import { RadarConfigurationSchema, type RadarConfigurationType } from "../validation/radar-configuration.schema";
 import type { EntryType } from "../validation/entry.schema";
 import { radar_visualization } from "./dependency/radar-0.8";
 

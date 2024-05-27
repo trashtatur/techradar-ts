@@ -1,10 +1,14 @@
 {
   "name": "techradar-ts",
-  "version": "2.3.1",
+  "version": "3.0.0",
   "description": "Wrapper around the Zalando techradar implementation in typescript, to provide typesupport and validation",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types" : "./dist/index.d.mts",
+      "import": "./dist/index.mjs"
+    }
+  },
   "scripts": {
     "build": "tsup src/",
     "type-check": "tsc --noEmit src/**/*.ts"

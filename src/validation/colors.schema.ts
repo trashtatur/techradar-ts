@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from 'zod';
 
 const zColor = z.string().startsWith('#').max(7).min(2);
 

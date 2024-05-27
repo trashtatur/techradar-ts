@@ -26,6 +26,11 @@ import * as d3 from "d3v4";
 // THE SOFTWARE.
 
 
+/**
+ * 
+ * @param {import('../../validation/radar-configuration.schema').RadarConfigurationType} config 
+ * @returns void
+ */
 export function radar_visualization(config) {
 
   // custom random number generator, to make random sequence reproducible

@@ -37,3 +37,6 @@
 
 ## 2.3.1
 - Fix all type imports
+
+## 3.0.0
+- Change structure and fix the remaining stuff... hopefully
