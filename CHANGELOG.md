@@ -43,3 +43,9 @@
 
 ### 3.0.1
 - Publish dist folder
+
+### 3.0.3
+- Remove wrong index.d.ts
+
+### 3.0.4
+- Fix commonjs resolve
