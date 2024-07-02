@@ -13,10 +13,10 @@ npm i techradar-ts
 Nothing else needs to be done
 
 ## Usage
-Currently you have to import exposed functions like this
+Just import things like this and use them
+
 ```ts
-import { createEntry } from 'techradar-ts/src'
+import { createEntry } from 'techradar-ts'
 ```
-At some point I might add an index or something.
 
 
