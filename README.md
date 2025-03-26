@@ -1,6 +1,6 @@
 # techradar-ts
 
-![Static Badge](https://img.shields.io/badge/npm-techradar_ts_on_npm?style=flat&logo=npm&logoColor=%23CB3837&color=white&link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Ftechradar-ts)
+<img alt="Static Badge" src="https://img.shields.io/badge/npm-techradar_ts_on_npm?style=flat&logo=npm&logoColor=%23CB3837&color=white&link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Ftechradar-ts">
 
 Wrapper around the Zalando techradar implementation in typescript, to provide typesupport and validation.
 The library is hard to understand properly without types already, so I wanted to make it a little easier for you all out there
